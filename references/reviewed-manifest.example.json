@@ -1,0 +1,19 @@
+{
+  "projectName": "替换为用户提供并经页面核对的项目名称",
+  "workspaceId": "替换为页面核对所得的项目ID",
+  "resultBase": "资源中心后台",
+  "review": {
+    "approved": false,
+    "source": "",
+    "approvedIds": []
+  },
+  "defects": [
+    {
+      "page": "新建授权",
+      "id": "AUTH-001",
+      "title": "替换为用户审核通过的真实缺陷标题",
+      "descriptionFile": "资源中心后台/新建授权/AUTH-001/TAPD.txt",
+      "fields": {}
+    }
+  ]
+}

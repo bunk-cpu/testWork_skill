@@ -1,0 +1,23 @@
+{
+  "loginUrl": "https://www.tapd.cn/cloud_logins/login",
+  "browserChannel": "chrome",
+  "timeoutMs": 20000,
+  "descriptionEditorId": "BugDescription",
+  "selectors": {
+    "createBug": "button.agi-button--level-primary:has(span.agi-button__text:text-is(\"创建\"))",
+    "duplicateSearch": "input[placeholder=\"搜索标题或ID\"]",
+    "form": "#bug_form",
+    "title": "#BugTitle",
+    "attachmentInput": "#file_input",
+    "submitBug": "#_view",
+    "fields": {
+      "发现版本": "#BugVersionReport",
+      "模块": "#BugModule",
+      "优先级": "#BugPriority",
+      "严重程度": "#BugSeverity",
+      "处理人": "#BugCurrentOwnerValue",
+      "测试类型": "#BugTesttype",
+      "解决期限": "#BugDeadline"
+    }
+  }
+}

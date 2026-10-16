@@ -1,0 +1,4 @@
+interface:
+  display_name: "资源中心测试与 TAPD 提交"
+  short_description: "复用同一带窗口 Chrome 创建已审核缺陷，正文分级与非图片附件自动填写并核对详情"
+  default_prompt: "使用 $resource-test-tapd 检查登录并取得本次项目，在同一带窗口 Chrome 会话创建已审核缺陷，按正文填写分级、上传非图片文件并核对详情；发现版本、模块、处理人由我后续补填。"

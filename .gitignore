@@ -1,0 +1,9 @@
+node_modules/
+.local/
+*.tmp
+__pycache__/
+*.py[cod]
+.env
+.env.*
+!.env.example
+*.log
